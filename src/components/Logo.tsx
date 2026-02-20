@@ -1,0 +1,18 @@
+'use client';
+
+import { useTheme } from '@mui/material/styles';
+
+const Logo = () => {
+  const theme = useTheme();
+
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="228" height="40" viewBox="0 0 303.8 40">
+      <path
+        fill={theme.palette.grey[900]}
+        d="M58.1 31.3V8.9H76l4.5 4.5v13.4L76 31.3H58.1zm4.4-17.9v13.4h11.2l2.2-2.2v-8.9l-2.2-2.2H62.5zM116.2 31.3h-4.5V8.9H134v22.3h-4.5v-8.9h-13.4m.1-8.9v4.5h13.4v-4.5h-13.4zM143 31.3h-4.5V8.9h22.3v22.4h-4.4V13.4h-4.5v17.9h-4.5V13.4H143zM187.6 13.4V8.9h-22.3v13.4h17.9v4.5h-17.9v4.5h22.3V17.9h-17.8v-4.5zM89.4 31.3h-4.5V8.9h19l3.4 3.4v5.6l-2.2 2.2 2.2 2.2v8.9h-4.5v-7.8l-1.1-1.1H89.4v9zm12.2-17.9H89.4v4.5h12.3l1.1-1.1v-2.2c-.5-.5-.7-.8-1.2-1.2zM277 13.4V8.9h-22.3v22.4H277v-4.5h-17.9V13.4zM250.2 13.4V8.9h-22.3v22.4h22.3v-4.5h-17.9v-4.5h17.9v-4.4h-17.9v-4.5zM299.3 17.9h-13.4v-9h-4.4v22.4h4.4v-9h13.4v9h4.5V8.9h-4.5zM210 31.3h4.5V13.4h8.9V8.9h-22.3v4.5h8.9zM0 40h40V0L0 40zm32-8H19.3L32 19.3V32z"
+      />
+    </svg>
+  );
+};
+
+export default Logo;
