@@ -145,10 +145,10 @@ const HeaderPage = () => {
           </Grid>
         </Grid>
         <Grid item xs={12} md={7} sx={{ display: { xs: 'none', md: 'flex' } }}>
-          <Box sx={{ position: 'relative', mt: 8.75 }}>
+          <div style={{ position: 'relative', marginTop: 70 }}>
             <HeaderImage src="/images/landing/3D-Lot-4.svg" alt="DRAMS Tech" />
-            <Box
-              sx={{
+            <div
+              style={{
                 position: 'absolute',
                 bottom: 180,
                 left: 60,
@@ -164,8 +164,8 @@ const HeaderPage = () => {
               >
                 <HeaderImage src="/images/landing/3D-House.svg" alt="DRAMS Tech - Building" />
               </motion.div>
-            </Box>
-          </Box>
+            </div>
+          </div>
         </Grid>
       </Grid>
     </Container>
